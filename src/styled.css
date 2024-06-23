@@ -1,0 +1,157 @@
+.container {
+  height: 95dvh;
+  width: 95%;
+  margin: 0;
+  padding: 0;
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .contt {
+    height: 90%;
+    .twoblock {
+      padding-right: 1dvh;
+      height: 90%;
+      margin-left: 1dvh;
+      border: 1dvmin solid hsl(320, 23%, 28%);
+      border-radius: 15px;
+    }
+  }
+}
+
+.HiroAllBox {
+  height: 100%;
+  width: 100%;
+  .mulip-btn {
+    height: 5%;
+    button {
+      width: 100%;
+    }
+  }
+  .CardBox {
+    height: 95%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    .row.hiro-card {
+      width: 98%;
+      margin-top: 5px;
+      border: 1dvmin solid hsl(318, 19%, 43%);
+      border-radius: 15px;
+
+      height: 20%;
+
+      * {
+        font-family: cursive;
+        font-optical-sizing: auto;
+        font-size: 90%;
+      }
+
+      .hiro-btn {
+        padding: 1dvh;
+        margin-right: 1dvh;
+        margin-left: 1dvh;
+        border-left: 1dvmin solid hsl(318, 19%, 43%);
+        border-right: 1dvmin solid hsl(318, 19%, 43%);
+        border-radius: 15px;
+      }
+
+      .hiro-img {
+        img {
+          max-height: 100%;
+          max-width: 100%;
+        }
+      }
+
+      .hiro-info {
+        font-size: 90%;
+      }
+    }
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+.rightblock {
+  border-left: 1dvmin solid hsl(320, 23%, 28%);
+  border-radius: 15px;
+  margin-right: 1dvh;
+  margin-left: 1dvh;
+  .canvahp {
+    height: 85%;
+    canvas {
+      height: 100%;
+      width: 100%;
+    }
+    .progress {
+      height: 5%;
+    }
+  }
+}
+.headblock {
+  margin-left: 1dvh;
+  border: 1vmin solid hsl(320, 23%, 28%);
+  border-radius: 15px;
+  margin-bottom: 1vh;
+  height: 7%;
+
+  .container {
+    height: 100%;
+    width: 100%;
+    * {
+      height: 100%;
+    }
+  }
+  * {
+    font-size: 1.5dvh;
+    margin: 0;
+    padding: 0;
+  }
+  .btn {
+    height: 100%;
+    width: 100%;
+  }
+  .reborn {
+    width: auto;
+  }
+}
+/* для обычного навбара */
+#offcanvasExample {
+  height: 98%;
+  border: 1dvmin solid hsl(320, 23%, 28%);
+  border-radius: 15px;
+  margin-right: 1dvh;
+}
+/* для навбара вызываемого кнопкой при соотношении сторон 1/1.5 */
+.offcanvas {
+  max-width: 20%;
+}
+@media screen and (min-aspect-ratio: 1/1.5) {
+  .LeftBarIcon.Monster {
+    display: none;
+  }
+  .navbarbtn {
+    display: none;
+  }
+  .leftblock:empty {
+    display: none;
+  }
+}
+.styledblc {
+  height: 100%;
+
+  * {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+.lab {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  .laboratoryblock {
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
